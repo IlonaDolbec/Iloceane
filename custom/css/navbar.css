@@ -1,0 +1,36 @@
+.navbar{
+    position: absolute;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.navbar .logo {
+    font-family: URW Chancery L, cursive;
+    font-weight: bold;
+    background-image: url(../../img/paysage/plagesoux.jpg);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+    padding-left: 35px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 45px;
+    font-family: Lato, sans-serif;
+}
+
+.menu a:hover{
+    color: rgb(117, 161, 172);
+    text-decoration: 3px underline rgb(117, 161, 172);
+    
+}
