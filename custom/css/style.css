@@ -1,6 +1,7 @@
 @import 'style.css';
 @import 'navbar.css';
 @import 'localisation.css';
+@import 'image.css';
 
 .accueil{
     background-image: url(../../img/paysage/chateau1.jpg);
