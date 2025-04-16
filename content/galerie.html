@@ -5,19 +5,62 @@
     <link rel='stylesheet' href='../custom/css/style.css'/>
     <link rel="icon" href="../img/paysage/Yeu.png">
     <script defer src="../custom/js/script.js"></script>
-    <title>Iloceane</title>
+    <title>Iloceane - Galerie</title>
 </head>
-    <body>
-        <nav class="navbar"> 
-            <a href="#" class="logo">ILO'CEANE</a>
-            <div class="menu">                
-                <a href="index.html">ACCUEIL</a>
-                <a href="galerie.html">GALERIE</a>
-                <a href="index.html">DESCRIPTION</a>
-                <a href="localisation.html">LOCALISATION</a>
-                <a href="calendrier.html">CALENDRIER</a>
-                <a href="contact.html">CONTACT</a>
-            </div>
-        </nav>
-    </body>
+<body>
+    <nav class="navbar"> 
+        <a href="#" class="logo">ILO'CEANE</a>
+        <div class="menu">                
+            <a href="index.html">ACCUEIL</a>
+            <a href="galerie.html">GALERIE</a>
+            <a href="index.html">DESCRIPTION</a>
+            <a href="localisation.html">LOCALISATION</a>
+            <a href="calendrier.html">CALENDRIER</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+    </nav>
+    
+    <div class="gallery-container">
+        <h1 class="gallery-title">Découvrez notre maison en images</h1>
+        
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">Tout voir</button>
+            <button class="filter-btn" data-filter="interieur">Intérieur</button>
+            <button class="filter-btn" data-filter="exterieur">Extérieur</button>
+            <button class="filter-btn" data-filter="paysage">Île d'Yeu</button>
+        </div>
+        
+        <div class="gallery">
+            <!-- Intérieur -->
+            <img src="../img/maison/Mezzanine.jpg" alt="Salon" data-category="interieur">
+            <img src="../img/maison/Mezzanine_2.jpg" alt="Mezzanine" data-category="interieur">
+            <img src="../img/maison/cuisine.jpg" alt="Cuisine" data-category="interieur">
+            <img src="../img/maison/cuisine2.jpg" alt="Cuisine vue différente" data-category="interieur">
+            <img src="../img/maison/bedroom_1.jpg" alt="Chambre 1" data-category="interieur">
+            <img src="../img/maison/bedroom_2.jpg" alt="Chambre 2" data-category="interieur">
+            <img src="../img/maison/bedroom_3.jpg" alt="Chambre 3" data-category="interieur">
+            <img src="../img/maison/salle_de_bain.jpg" alt="Salle de bain" data-category="interieur">
+            <img src="../img/maison/Douche.jpg" alt="Douche" data-category="interieur">
+            
+            <!-- Extérieur -->
+            <img src="../img/maison/vu_entrer.jpg" alt="Vue extérieure" data-category="exterieur">
+            <img src="../img/maison/patio.jpg" alt="Patio" data-category="exterieur">
+            <img src="../img/maison/patio2.jpg" alt="Terrasse" data-category="exterieur">
+            <img src="../img/maison/interieur_patio.jpg" alt="Vue depuis le patio" data-category="exterieur">
+            <img src="../img/maison/vue_jardin.jpg" alt="Jardin" data-category="exterieur">
+            
+            <!-- Paysages de l'île -->
+            <img src="../img/paysage/plage.jpg" alt="Plage" data-category="paysage">
+            <img src="../img/paysage/mer.jpg" alt="Vue sur la mer" data-category="paysage">
+            <img src="../img/paysage/chateau1.jpg" alt="Château" data-category="paysage">
+            <img src="../img/paysage/rocher .jpg" alt="Rochers côtiers" data-category="paysage">
+            <img src="../img/paysage/bateau.jpg" alt="Bateaux" data-category="paysage">
+        </div>
+    </div>
+
+    <div class="fullscreen" id="fullscreen-container">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <img id="fullscreen-image" src="" alt="">
+    </div>
+</body>
 </html>
